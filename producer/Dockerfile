@@ -5,7 +5,6 @@ FROM python:3.9
 WORKDIR /app
 
 # Copy the producer script and the wait-for-it script into the container
-COPY stream.py /app/
 COPY stream_covid_data.py /app/
 
 RUN mkdir data
