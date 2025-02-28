@@ -1,5 +1,5 @@
 # Real Time Time Series Covid Data Streaming using Python, Docker and Kafka
-This project demonstrates a real-time data streaming solution using Kafka, Docker, and Python. The goal is to aggregate and stream data in real time. Data is ingested, processed, and consumed from Kafka topics in a Dockerized environment. This project includes a Kafka producer for streaming data, a Kafka consumer for processing the data, and the use of Docker for containerization and orchestration.
+This project demonstrates a real-time data streaming solution using Kafka, Docker, and Python. The goal is to stream data in real time. Data is ingested, processed, and consumed from Kafka topics in a Dockerized environment. This project includes a Kafka producer for streaming data, a Kafka consumer for processing the data, and the use of Docker for containerization and orchestration.
 
 
 ## Project Overview 
@@ -13,7 +13,7 @@ This project demonstrates a real-time data streaming solution using Kafka, Docke
 The data used for this project is downloaded from Kaggle entitled "Real-time Covid 19 Data" (link: https://www.kaggle.com/datasets/gauravduttakiit/covid-19). The exact filename of the dataset used is: worldwide-aggregate.csv
 
 ## Project structure 
-
+```bash
 ├── consumer
 │   ├── consumer_covid_data.py
 │   ├── Dockerfile
@@ -27,7 +27,7 @@ The data used for this project is downloaded from Kaggle entitled "Real-time Cov
 │   ├── requirements.txt
 │   └── stream_covid_data.py
 └── README.md
-
+```
 ## Installation
 1. Clone the repository:
 ```bash
