@@ -42,3 +42,17 @@ The data used for this project is downloaded from Kaggle entitled "Real-time Cov
 ```bash
 docker-compose down
 ```
+
+## Kafka Producer 
+
+![alt text](attachments/kafka_producer.png)
+
+## Kafka Consumer 
+![alt text](attachments/kafka_consumer.png)
+
+## Kafka UI 
+
+
+You can access the Kafka UI by visiting: ``` http://localhost:8080/ ```
+
+![alt text](attachments/kafka_ui.png)
